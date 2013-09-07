@@ -1,5 +1,4 @@
-Actually asynchronous and cancelable URL connection
-=======================
+### Actually asynchronous and cancelable URL connection
 
 `+[NSURLConnection sendAsynchronousRequest:                          queue:completionHandler:]` has been [reported](https://twitter.com/landonfuller/status/375403178206171137) to be built on top of `+[NSURLConnection sendSynchronousRequest:returningResponse: error:]` and does not support cancellation.
 
